@@ -1,0 +1,20 @@
+/****************************************************
+*  project: filmora website 2018 main pages         *
+*  description: custom font style for dc            *
+*  author: mazq@wondershare.cn                      *
+*  update: 190116                                   *
+****************************************************/
+@font-face {
+  font-family: 'Mark W01 Heavy';
+  font-style: normal;
+  font-weight: 700;
+  src: url("./font/577af866-3716-496a-bba3-11179c5a8812.eot?#iefix");
+  src: url("./font/577af866-3716-496a-bba3-11179c5a8812.eot?#iefix") format("embedded-opentype"),
+       url("./font/1ab8369b-873d-483f-a927-464e1d16e1d4.woff2") format("woff2"),
+       url("./font/d55eb20c-e9fb-4911-91af-30bb4442c36c.woff") format("woff"),
+       url("./font/dd938bb8-1c33-4dac-969a-c80bc853855b.ttf") format("truetype");
+}
+
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted property of Monotype and/or its suppliers. You may not attempt to copy, install, redistribute, convert, modify or reverse engineer this font software. Please contact Monotype with any questions regarding Web Fonts: http://www.fontshop.com
+*/

@@ -1,0 +1,519 @@
+/****************************************************
+*  project: filmora website 2018 main pages         *
+*  description: style for product related pages     *
+*  author: mazq@wondershare.cn                      *
+*  update: 190222                                   *
+****************************************************/
+/** common **/
+.sec-heading-lg { font-size: 3.875rem; margin-bottom: 1.25rem; }
+.sec-desc-lg { font-size: 1.625rem; margin: 1.25rem 0 2.75rem; }
+.sec-heading { font-size: 2.25rem; margin-bottom: 1.5rem; }
+.sec-heading-sm { font-size: 1.75rem; margin-bottom: 0.375rem; }
+.sec-normal { padding: 6rem 0; }
+.sec-desc { font-size: 1.5rem; margin: 1.25rem 0 3rem; }
+.sec-sub { margin-bottom: 0.375rem; }
+.ico-play svg { height: 32% !important; top: 34% !important; width: 100% !important; } /* csslint allow: important */
+.fm9-box { background-image: url("https://filmora.wondershare.com/filmora-2018/images/shared/filmora-9/filmora-9-box.png"); padding-bottom: 120.71%; }
+.fm9-logo { background-image: url("https://filmora.wondershare.com/filmora-2018/images/shared/filmora-9/filmora-9-logo-horizontal.svg"); height: 3rem; }
+.fm9-concept { background-image: url("https://filmora.wondershare.com/filmora-2018/images/shared/filmora-9/filmora-9-concept.png"); padding-bottom: 82.695%; }
+.fm9-box-concept { background:#d8d8d8;background-size:598px 429px; padding-bottom: 82.695%; }
+@media(max-width: 767px) {
+.sec-heading-lg { font-size: 2rem; }
+.sec-desc-lg { font-size: 1.5rem; }
+.sec-heading-lg br, .sec-heading br, .sec-heading-sm br, .sec-desc-lg br, .sec-desc br, .sec-sub br { display: none; }
+}
+
+/** pro feat **/
+.fmp-feat-hero-bg { height: 37.5rem; width: 100%; }
+.fmp-feat-hero { padding: 7.5rem 0; }
+.fmp-feat-hero .back::before { pointer-events: inherit; z-index: 2; }
+.fmp-feat-hero .container { position: relative; z-index: 3; }
+.fmp-feat-hero .video { display: none; position: relative; }
+.fmp-feat-hero .hero-vid { padding-bottom: 180%; }
+.fmp-feat-hero .logo i { height: 6rem; }
+.fmp-feat-meet { padding: 12rem 0 6rem; }
+.fmp-feat-meet .scene-item { box-shadow: 0 2.375rem 1.875rem rgba(0, 0, 0, 0.08); -webkit-transform: translateY(var(--meet-parallax)); transform: translateY(var(--meet-parallax)); will-change: transform; } /* csslint allow: compatible-vendor-prefixes */
+.fmp-feat-meet .list { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/pro-feat/meet-bg.png"); margin: 3rem auto 0; padding-bottom: 47.3333%; position: relative; width: 79.1667%; }
+.fmp-feat-meet li { position: absolute; }
+.fmp-feat-meet .image { padding-bottom: 15.1579%; width: 22.7368%; }
+.fmp-feat-meet .meet-img-01 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/pro-feat/meet-img-01.png"); left: -13%; padding-bottom: 34.7368%; top: 26.0563%; }
+.fmp-feat-meet .meet-img-02 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/pro-feat/meet-img-02.png"); padding-bottom: 15.1579%; right: -16%; top: 13.0281%; }
+.fmp-feat-meet .meet-img-03 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/pro-feat/meet-img-03.png"); bottom: 8.4507%; right: -13%; }
+.fmp-feat-meet .line { background-color: #ff90a4; padding-bottom: 0.8333%; width: 6.6667%; }
+.fmp-feat-meet .line-01 { bottom: 6.6901%; left: -3.5%; }
+.fmp-feat-meet .line-02 { right: -5%; top: 48.5915%; }
+.fmp-feat-edit .item { margin-bottom: 1.875rem; padding-bottom: 56.25%; }
+.fmp-feat-edit .item:hover .mask { opacity: 0.25; }
+.fmp-feat-edit .mask { background-color: var(--secondary); opacity: 0; position: absolute; } /* csslint allow: known-properties */
+.fmp-feat-edit .icon { font-size: 2.25rem; }
+.fmp-feat-edit .title { margin: 1rem auto 0; max-width: 11.5rem; }
+.fmp-feat-edit .active { z-index: 2; }
+.fmp-feat-audio .video { padding-bottom: 100%; }
+.fmp-feat-audio .item { padding: 2.5rem 2rem; position: relative; }
+.fmp-feat-audio .icon { height: 5.75rem; margin-right: 1.875rem; width: 5.75rem; }
+.fmp-feat-audio .text { width: calc(100% - 8rem); }
+.fmp-feat-audio .title { margin-bottom: 0.625rem; }
+.fmp-feat-audio .list .active, .fmp-feat-tool .index .active { background-color: white; box-shadow: -1px -1px 43px 0 rgba(6, 6, 6, 0.15); color: var(--secondary); z-index: 2; } /* csslint allow: known-properties */
+.fmp-feat-audio .audio-ico-01 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/pro-feat/audio-ico-01.svg"); }
+.fmp-feat-audio .audio-ico-02 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/pro-feat/audio-ico-02.svg"); }
+.fmp-feat-audio .audio-ico-03 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/pro-feat/audio-ico-03.svg"); }
+.fmp-feat-audio .audio-ico-04 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/pro-feat/audio-ico-04.svg"); }
+.fmp-feat-audio .active .audio-ico-01 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/pro-feat/audio-ico-05.svg"); }
+.fmp-feat-audio .active .audio-ico-02 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/pro-feat/audio-ico-06.svg"); }
+.fmp-feat-audio .active .audio-ico-03 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/pro-feat/audio-ico-07.svg"); }
+.fmp-feat-audio .active .audio-ico-04 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/pro-feat/audio-ico-08.svg"); }
+.fmp-feat-tool .image, .fmp-feat-tool .cover { background-repeat: no-repeat; background-size: auto 100%; }
+.fmp-feat-tool .image { padding-bottom: 57.8333%; }
+.fmp-feat-tool .cover { max-width: calc(100% - 2rem); min-width: 2rem; width: 50%; }
+.fmp-feat-tool .cover::before, .fmp-feat-tool .cover::after { background-color: white; content: ""; height: calc(50% - 1.875rem); position: absolute; right: -1px; width: 2px; }
+.fmp-feat-tool .cover::before { top: 0; }
+.fmp-feat-tool .cover::after { bottom: 0; }
+.fmp-feat-tool .handle { border: solid 2px white; border-radius: 50%; height: 3.75rem; position: absolute; right: -1.875rem; text-align: center; top: calc(50% - 1.875rem); width: 3.75rem; } /* csslint allow: box-model */
+.fmp-feat-tool .handle i { height: 60%; margin: 20% 0; }
+.fmp-feat-tool .caption { bottom: 0; margin: 2.5rem 3rem; max-width: 30rem; position: absolute; user-select: none; }
+.fmp-feat-tool .index li { padding: 0.625rem 4.4444%; position: relative; }
+.fmp-feat-tool .icon { height: 1.875rem; margin-right: 1rem; width: 1.875rem; }
+.fmp-feat-tool .title { width: calc(100% - 3.5rem); }
+.fmp-feat-tool .tool-ico-01 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/pro-feat/tool-ico-01.svg"); }
+.fmp-feat-tool .tool-ico-02 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/pro-feat/tool-ico-02.svg"); }
+.fmp-feat-tool .tool-ico-03 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/pro-feat/tool-ico-03.svg"); }
+.fmp-feat-tool .tool-ico-04 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/pro-feat/tool-ico-04.svg"); }
+.fmp-feat-tool .active .tool-ico-01 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/pro-feat/tool-ico-05.svg"); }
+.fmp-feat-tool .active .tool-ico-02 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/pro-feat/tool-ico-06.svg"); }
+.fmp-feat-tool .active .tool-ico-03 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/pro-feat/tool-ico-07.svg"); }
+.fmp-feat-tool .active .tool-ico-04 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/pro-feat/tool-ico-08.svg"); }
+.fmp-feat-clip .video .embed-responsive-1by1::before { padding-top: 133.5938%; }
+.fmp-feat-clip .item { padding-bottom: 3rem; }
+.fmp-feat-clip .title { margin: 2rem 0 0.7rem; }
+@media(min-width: 992px) {
+.fmp-feat-hero { background-color: transparent !important; } /* csslint allow: important */
+.fmp-feat-hero .video { border: solid 0.5rem; display: block; max-width: 100%; position: absolute; right: 0; top: -3rem; width: 22rem; } /* csslint allow: box-model */
+.fmp-feat-edit .item { padding-bottom: 84.7826%; }
+.fmp-feat-edit .item-vertical { padding-bottom: 176.087%; }
+.fmp-feat-tool .index li { display: table-cell; vertical-align: middle; width: 24%; } /* csslint allow: box-model */
+.fmp-feat-clip { padding: 4rem 0; }
+.fmp-feat-clip .container { position: relative; }
+.fmp-feat-clip .text { left: 34.5%; position: absolute; width: 30%; }
+.fmp-feat-clip .sec-heading-lg { width: 120%; }
+.fmp-feat-clip .scene-item { opacity: var(--clip-opacity); transform: translateX(var(--clip-entrance-x)) translateY(var(--clip-entrance-y)); will-change: transform, opacity; } /* csslint allow: known-properties */
+.fmp-feat-clip .clip-item-01 { padding: 6rem 0 14rem; }
+.fmp-feat-clip .clip-item-02 { padding: 20rem 0 0; }
+.fmp-feat-clip .clip-item-03 { padding: 12rem 0 8rem; }
+}
+@media(max-width: 767px) {
+.fmp-feat-audio .item { float: left; padding: 1.5rem 2rem; text-align: center; width: 50%; } /* csslint allow: box-model */
+.fmp-feat-audio .icon { margin-right: 0; }
+.fmp-feat-audio .text { width: auto; }
+.fmp-feat-audio .title { left: 0; margin-bottom: 0; opacity: 0; position: absolute; top: 50%; transform: translateY(-50%); width: 100%; }
+.fmp-feat-audio .desc { display: none; }
+.fmp-feat-audio .active .icon { opacity: 0; }
+.fmp-feat-audio .active .title { opacity: 1; }
+.fmp-feat-tool .cover::before, .fmp-feat-tool .cover::after { height: 50%; }
+.fmp-feat-tool .handle { display: none; }
+}
+@media(min-width: 992px) and (max-width: 1599px) {
+.fmp-feat-edit .item-vertical { padding-bottom: 177.4589%; }
+.fmp-feat-audio .item { padding: 1.5625rem 1.75rem; }
+.sec-heading-lg { font-size: 3.875vw; margin-bottom: 1.25vw; }
+.sec-desc-lg { font-size: 1.625vw; margin: 1.25vw 0 3.75vw; }
+}
+@media(min-width: 992px) and (max-width: 1279px) {
+.fmp-feat-edit .item-vertical { padding-bottom: 179.8966%; }
+.fmp-feat-edit .cover { bottom: 10%; }
+.fmp-feat-edit .player { height: calc(100% - 1.2rem); }
+.fmp-feat-audio .item { padding: 0.7578125rem 1.5rem; }
+.fmp-feat-audio .desc { display: none; }
+.fmp-feat-clip .text { width: 38%; }
+.fmp-feat-clip .title { font-size: 1.375rem; }
+.fmp-feat-clip .desc { min-height: 4.2rem; }
+}
+
+
+/** 9 feat **/
+[data-pro="filmora"][data-nav="feat"] .video { position: relative; }
+[data-pro="filmora"][data-nav="feat"] .wsc-youtube-video { background-color: transparent; }
+[data-pro="filmora"][data-nav="feat"] .parallax-item { position: absolute; transform: translateY(var(--parallax-translate-y)); z-index: -1; }
+.wsc-youtube-player .tool { bottom: 5%; left: 3%; opacity: 0; position: absolute; z-index: -1; }
+.wsc-youtube-player .right { left: auto; right: 3%; }
+.wsc-youtube-player span.active { opacity: 1; z-index: 3; }
+.fm9-feat-half .text { padding: 5.25rem 3rem 0; }
+.fm9-feat-half .video { margin-bottom: 3.25rem; }
+.fm9-feat-hero-bg { width: 100%; z-index: -1; }
+.fm9-feat-hero-bg video { z-index: 1; }
+.fm9-feat-hero-bg::after { background-color: white; content: ""; height: 100%; left: 0; opacity: 0.1; position: absolute; top: 0; width: 100%; z-index: 2; }
+.fm9-feat-hero { padding: 10% 2rem 12%; }
+.fm9-feat-hero .image { margin: 0 auto; max-width: 16rem; }
+.fm9-feat-hero .hero-heading { letter-spacing: -0.8px; line-height: 1; margin-bottom: 1.75rem; }
+.fm9-feat-hero .hero-desc { margin: 0; }
+.fm9-feat-hero .video { margin: 2.5rem 0 3.5rem; }
+.fm9-feat-hero .video i { margin-right: .75rem; }
+.fm9-feat-create, .fm9-feat-detail { padding: 3rem 0 2.5rem; }
+.fm9-feat-sound { padding: 8.5rem 0 7rem; }
+.fm9-feat-sound .sound-img-01 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/9-feat/sound-img-01.png"); height: 7.25rem; left: -15%; top: -12%; width: 9.4375rem; }
+.fm9-feat-sound .sound-img-02 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/9-feat/sound-img-02.png"); bottom: -7%; height: 11.1875rem; right: -15%; width: 11.0625rem; }
+.fm9-feat-import { padding: 8rem 0 3rem; }
+.fm9-feat-import .import-img-01 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/9-feat/import-img-01.png"); bottom: 10%; height: 8.3125rem; left: -17%; width: 11.125rem; }
+.fm9-feat-more .text { margin: 1rem 0 2rem; }
+.fm9-feat-share { padding: 6rem 0; }
+.fm9-feat-share .image { margin: 0 auto 1rem; max-width: 1204px; }
+.fm9-feat-share .share-img-01 { background-image: url("https://filmora.wondershare.com/filmora-2018/images/page/9-feat/share-img-01.png"); padding-bottom: 36.5449%; }
+.fm9-feat-extra { padding: 2rem 0 4.5rem; }
+.fm9-feat-extra .image { margin: 0 auto; max-width: 338px; }
+.fm9-feat-extra .sec-heading-lg { line-height: 1; margin: 4rem 0 3rem; }
+@media(max-width: 991px) {
+[data-pro="filmora"][data-nav="feat"] .parallax-item { display: none; }
+.fm9-feat-hero-bg { display: none; }
+.fm9-feat-hero .text, .fm9-feat-extra .text { text-align: center; }
+.fm9-feat-hero .logo { /* background-position: center; margin-top: 2rem; */ display: none; }
+}
+@media(min-width: 992px) {
+.fm9-feat-hero { padding: 0 0 40%; position: relative; }
+.fm9-feat-hero .text { left: 55%; position: absolute; top: 12%; }
+.fm9-feat-hero .logo i { height: 5vw; }
+.fm9-feat-hero .hero-heading { font-size: 3.875vw; margin-bottom: 1.75vw; }
+.fm9-feat-hero .hero-desc { font-size: 1.625vw; }
+.fm9-feat-hero .video { font-size: 1.375vw; margin: 2.5vw 0 3.5vw; }
+}
+@media(min-width: 1280px){
+.fm9-feat-hero { padding: 0 0 42%; }
+.fm9-feat-hero .text { top: 14%; }
+}
+@media(min-width: 992px) and (max-width: 1599px) {
+.fm9-feat-half .text { padding: 5.25vw 2.3vw 0; }
+}
+
+/** whatsnew **/
+.whatsnew-hero .page-heading { font-size: 2.25rem; margin-bottom: 1.5rem; }
+.whatsnew-hero .action { margin-top: 2.25rem; }
+.whatsnew-log { padding: 4rem 0; }
+/* .whatsnew-log::before { background-color: var(--secondary); content: ""; height: 100%; left: 7vw; position: absolute; top: 0; width: 2px; } csslint allow: known-properties */
+.whatsnew-log::before { background-color: var(--secondary); content: ""; height: 100%; position: absolute; top: 0; width: 2px; } csslint allow: known-properties
+.whatsnew-log .info { margin-bottom: 2rem; }
+.whatsnew-log .version { font-size: 1.5rem; margin-bottom: 0.5rem; }
+.whatsnew-log dt { font-size: 1.5rem; margin-bottom: 1rem; }
+.whatsnew-log dd { margin-bottom: 2rem; }
+.whatsnew-log dd dt { font-size: 1.125rem; font-weight: 500; margin-bottom: 0.5rem; }
+.whatsnew-log dd dd { font-weight: 300; margin-left: 1.5rem; position: relative; }
+.whatsnew-log dd dd::before { background-color: var(--secondary); border-radius: 50%; content: ""; height: 0.5rem; left: -1.5rem; position: absolute; top: 0.5rem; width: 0.5rem; } /* csslint allow: known-properties */
+.whatsnew-tip li { line-height: 2; }
+.whatsnew-tip .action { margin-top: 2rem; }
+@media(min-width: 992px) {
+.whatsnew-log dl dl { column-count: 2; column-gap: 18%; } /* csslint allow: known-properties */
+.whatsnew-tip .list { -webkit-column-count: 2; -moz-column-count: 2; -ms-column-count: 2; column-count: 2; -webkit-column-gap: 1.5rem; -moz-column-gap: 1.5rem; -ms-column-gap: 1.5rem; column-gap: 1.5rem; }
+}
+@media(max-width: 991px) {
+.whatsnew-log::before { content: none; }
+}
+/* scrn whatnew */
+.fms-whatsnew-hero { background: #fafafa;}
+/* pro whatsnew */
+.fmp-whatsnew-hero { background: rgb(239,230,255);padding: 3rem 0 2rem;}
+/* 9 whatsnew */
+.fm9-whatsnew-hero { padding: 6rem 0 7rem; }
+.fm9-whatsnew-hero .text { margin-top: 7.5rem; }
+.fm9-whatsnew-hero .logo i{ background-position: left; height: 3rem; }
+.fm9-whatsnew-hero .hero-heading { letter-spacing: -0.8px; line-height: 1; margin: 0.75rem 0 1.75rem; }
+.fm9-whatsnew-hero .hero-desc { margin: 0; }
+.fm9-whatsnew-hero .video { margin: 2.5rem 0 2rem; }
+.fm9-whatsnew-hero .video i { margin-right: .75rem; }
+
+/*add srcn prduct*/
+/** icons **/
+.bg-pattern-steel {background-image: url(../../assets/images/common/pattern-steel.png);background-position: left top;background-repeat: repeat;}
+.bg-pattern-smoke{background-image: url(../../assets/images/common/pattern-smoke.png);background-position: left top;background-repeat: repeat;}
+.fms-icon-01 { background: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-01.png") center no-repeat; background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-01.svg"), none; }
+.fms-icon-02 { background: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-02.png") center no-repeat; background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-02.svg"), none; }
+.fms-icon-03 { background: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-03.png") center no-repeat; background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-03.svg"), none; }
+.fms-icon-04 { background: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-04.png") center no-repeat; background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-04.svg"), none; }
+.fms-icon-05 { background: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-05.png") center no-repeat; background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-05.svg"), none; }
+.fms-icon-06 { background: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-06.png") center no-repeat; background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-06.svg"), none; }
+.fms-icon-07 { background: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-07.png") center no-repeat; background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-07.svg"), none; }
+.fms-icon-08 { background: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-08.png") center no-repeat; background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-08.svg"), none; }
+.fms-icon-09 { background: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-09.png") center no-repeat; background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-09.svg"), none; }
+.fms-icon-10 { background: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-10.png") center no-repeat; background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-10.svg"), none; }
+.fms-icon-11 { background: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-11.png") center no-repeat; background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-11.svg"), none; }
+.fms-icon-12 { background: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-12.png") center no-repeat; background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-12.svg"), none; }
+
+/** top banner **/
+.fms-banner-top { background-color: #000; background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen-banner-top.jpg"); padding: 230px 0; padding: 23vh 0; }
+.fms-banner-top .logo i{ height: 130px; height: 13vh; }
+.fms-banner-top .heading { font-size: 36px; font-size: 3.6vh; line-height: 45px; line-height: 4.5vh; font-weight: normal; margin: 35px 0; margin: 0 0 3.5vh 0; }
+.fms-banner-top .platform{height: 35px;line-height: 35px}
+.fms-banner-top .platform i { font-size: 20px; color: #ffffff; opacity: 1;vertical-align: top }
+.fms-banner-top .platform .active i { color: #fff; opacity: 1; }
+.fms-banner-top .platform-desc { width: 200px; text-align: left; }
+.fms-banner-top .video { margin: 30px 0 0; margin: 3vh 0 0; }
+.fms-banner-top  .list-inline>li{display: inline-block; padding-left: 5px;padding-right: 5px;}
+/** introduction **/
+.fms-intro { padding: 90px 0; padding: 9vh 0; }
+.fms-intro .heading { font-size: 32px; font-size: 3.2vh; line-height: 40px; line-height: 4vh; margin: 0 0 60px; margin: 0 0 6vh; }
+.fms-intro .intro-item { background-color: #fff; padding: 8px; margin: 0 0 10px; }
+.fms-intro .intro-item:hover { box-shadow: 0 10px 15px rgba(0,0,0,0.5); -webkit-transform: translateY(-8px); -moz-transform: translateY(-8px); -ms-transform: translateY(-8px); -o-transform: translateY(-8px); transform: translateY(-8px); }
+.fms-intro .intro-image { height: 0; padding: 0 0 65%; }
+.fms-intro .intro-image-01 { background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen-intro-01.jpg"); }
+.fms-intro .intro-image-02 { background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen-intro-02.jpg"); }
+.fms-intro .intro-image-03 { background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen-intro-03.jpg"); }
+.fms-intro .intro-image-04 { background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen-intro-04.jpg"); }
+.fms-intro .intro-btm { margin: 10px 0 0; }
+.fms-intro .intro-icon { width: 75px; height: 75px; margin: 0 auto; }
+.fms-intro .intro-desc { font-size: 12px; line-height: 15px; height: 45px; margin: 5px 0 0; overflow: hidden; }
+.fms-intro .hide-overflow {white-space: nowrap;text-overflow: ellipsis;overflow: hidden;display: block;}
+/** modern ui **/
+.fms-modern { padding: 90px 0; padding: 9vh 0; }
+.fms-modern .heading { font-size: 32px; font-size: 3.2vh; line-height: 40px; line-height: 4vh; margin: 0 0 60px; margin: 0 0 6vh; }
+.fms-modern .monitor-box { width: 100%; max-width: 1023px; margin: 0 auto; }
+.fms-modern .monitor { background-image: url(https://filmora.wondershare.com/filmora-2016/images/product/screen-modern-monitor.png); height: 0;padding: 0 0 71.75%;position: relative; }
+.fms-modern .monitor-border { height: 0; padding: 3.2% 0 52.884%; margin: 3.226% 3.03% 15.64%;overflow-y: hidden; }
+.fms-modern .swiper-container { padding: 0; }
+.fms-modern .swiper-container ul{margin: 0 auto;padding-inline-start:0;}
+.fms-modern .swiper-container li{list-style-type: none}
+.fms-modern .modern-image { height: 0; padding: 0 0 56.296%; }
+.fms-modern .modern-image-01 { background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen-modern-slide-01.jpg");  }
+.fms-modern .modern-image-02 { background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen-modern-slide-02.jpg");  }
+
+/** features **/
+.fms-feats { padding: 90px 0; padding: 9vh 0; }
+.fms-feats .heading { font-size: 36px; font-size: 3.6vh; line-height: 45px; line-height: 4.5vh; margin: 0; }
+.fms-feats .feats-item { margin: 50px 30px 0; margin: 5vh 2vw 0; }
+.fms-feats .feats-icon { width: 80px; height: 80px; margin: 0 auto; }
+.fms-feats .feats-desc { margin: 15px 0 0; height: 40px; overflow: hidden; }
+
+/** community **/
+.fms-community { padding: 60px 0 90px; padding: 6vh 0 9vh; }
+.fms-community .community-icon { height: 60px; }
+.fms-community .heading { font-size: 32px; font-size: 3.2vh; line-height: 35px; line-height: 3.5vh; margin: 20px 0 40px; margin: 2vh 0 4vh; }
+.fms-community .community-item { margin: 20px 0 0; margin: 2vh 0 0; padding: 35px 25px; padding: 3.5vh 2.5vh; background-color: #fff; }
+.fms-community .community-avatar-box { height: 100px; }
+.fms-community .community-avatar {  position: absolute; top: 0; border-radius: 50%; border: 3px solid; width: 100px; height: 100px; margin: 0 auto; }
+.fms-community .community-avatar-01 { background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen-community-avatar-01.jpg"); }
+.fms-community .community-avatar-02 { background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen-community-avatar-02.jpg"); }
+.fms-community .community-avatar-03 { background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen-community-avatar-03.jpg"); }
+.fms-community .community-comment { margin: 20px 0 0; margin: 2vh 0 0; height: 125px; }
+.fms-community .community-comment:before { content: open-quote; }
+.fms-community .community-comment:after { content: close-quote; }
+/* .fms-community .community-item:hover { background-color: #ef3062; color: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.4); }
+.fms-community .community-item:hover .community-avatar { border-width: 0; width: 218%; border-radius: 0; }
+.fms-community .community-item:hover .community-name { opacity: 0; }
+.fms-community .community-item:hover .community-title { opacity: 0; } */
+
+/** banner downloads **/
+.fms-banner-downloads { padding: 60px 0; padding: 6vh 0; text-align: center; }
+.fms-banner-downloads .logo i { height: 100px; height: 10vh }
+.fms-banner-downloads .desc { margin: 30px 0 0; margin: 3vh 0 0; }
+.fms-banner-downloads .action { margin: 25px 0 0; margin: 2.5vh 0 0; }
+@media (max-width:1215px){
+.fms-community .community-comment { height: auto; }
+}
+
+/*fms whatsnew*/
+.fms-banner-rec { padding: 120px 0; padding: 7.5rem 0;position: relative; }
+.fms-banner-rec .image { overflow: visible; height: 450px; height: 50vh; }
+.fms-banner-rec .image img { position: absolute; }
+.fms-banner-rec .logo { margin: 0 0 15px; margin: 0 0 1.5vh; height: 45px; height: 4.5vh; }
+.fms-banner-rec .feats { margin: 20px 0; margin: 2vh 0; }
+.fms-banner-rec .feats li { font-size: 20px; font-size: 2vh; line-height: 45px; line-height: 4.5vh; }
+.fms-banner-rec .feats-item { padding: 20px; padding: 2vh; text-align: center; }
+.fms-banner-rec .feats-item.thin { padding: 10px 0; padding: 1vh 0; text-align: left; }
+.fms-banner-rec .feats-icon { display: inline-block; width: 40px; height: 40px; background-position: center !important; background-size: contain !important; background-repeat: no-repeat !important; }
+.fms-banner-rec .feats-title { line-height: 20px; font-weight: bold; }
+.fms-banner-rec .feats-title.inline-block { font-weight: normal; margin: 0 0 0 5px; }
+.fms-banner-rec .feats-icon-scrn-01 { background: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-01.png"); background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-01.svg"), none; }
+.fms-banner-rec .feats-icon-scrn-02 { background: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-02.png"); background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-02.svg"), none; }
+.fms-banner-rec .feats-icon-scrn-03 { background: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-03.png"); background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-03.svg"), none; }
+.fms-banner-rec .feats-icon-scrn-04 { background: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-04.png"); background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/screen/icon-04.svg"), none; }
+/* .fms-banner-rec .label-new { position: absolute; font-weight: bold; font-size: 20px; font-size: 2vh; line-height: 50px; line-height: 5vh; padding: 10px 0 0; padding: 1vh 0 0; width: 96px; width: 9.6vh;width:22.8vh; text-align: center; top: 0; right: 30px; right: 3vh;right:0; } */
+.fms-banner-rec .label-new { position: absolute; font-weight: bold; line-height: 50px; line-height: 5vh; padding: 0 0; padding: 1vh 0; width: 96px; width: 9.6vh;width:22.8vh; text-align: center; top: 0; right: 30px; right: 3vh;right:0; }
+/* .fms-banner-rec .label-new:after { content: ""; position: absolute; left: 0; bottom: -26px; border: solid 48px #f77fa1; border: solid 4.8vh #f77fa1; border-bottom: solid 30px transparent; border-bottom: solid 3vh transparent; border-top: none; } */
+.fms-version-history{background:#f5f5f5;padding:85px 0;}
+.fms-version-history h2{font-size:36px;letter-spacing:5px;text-align:center;color:#333;margin-bottom:100px;}
+@media (min-width: 1000px) { 
+  .fms-banner-rec .feats {width: 100%;}
+}
+@media (max-width:1015px){
+  .fms-banner-rec img { max-width: 60%; left: 0; right: 0; margin: 0 auto; }
+  .fms-banner-rec .image {margin-bottom: 5vh;}
+}
+
+@media (max-width:479px){
+	.fms-version-history h2{font-size:24px;margin-bottom:30px;}
+}
+
+@media (max-height:850px) and (min-width:1000px){
+  .fms-banner-rec{padding: 7.5rem 0 10rem;}
+  .fms-banner-rec .image img { position: absolute; top:-3rem }
+}
+
+/*add filmora go*/
+/** banner top **/
+.fmgo-banner-top {position: relative; height: 800px;text-align: center; }
+.fmgo-banner-top h1 { font-size: 24px; line-height: 25px; font-weight: normal; margin: 0; }
+.fmgo-banner-top h2.heading { font-size: 36px; font-size: 3.6vh; line-height: 45px; line-height: 4.5vh; margin: 0; }
+.fmgo-banner-top h3.desc { font-size: 24px; font-size: 2.4vh; line-height: 30px; line-height: 3vh; font-weight: normal; }
+.fmgo-banner-top h4 { font-size: 24px; line-height: 25px; margin: 50px 0 30px; }
+.fmgo-banner-top h2.heading { font-size: 36px; font-size: 3.6vh; line-height: 45px; line-height: 4.5vh; margin: 0; }
+.fmgo-banner-top > .back { position: absolute; width: 100%; height: 100%; z-index: 1; overflow: hidden; left: 0; top: 0; }
+.fmgo-banner-top > .back > .container-full { height: 100%; }
+.fmgo-banner-top > .front { position: relative; height: 100%; z-index: 2;display: inline-block; }
+.fmgo-banner-top > .front > div[class^="container"] { height: 100%; }
+.fmgo-banner-top .media-list { position: absolute; width: 1920px; height: 800px; left: 50%; top: 0; margin-bottom: 0; overflow: hidden; -webkit-transform: translate(-50%,0); -moz-transform: translate(-50%,0); -ms-transform: translate(-50%,0); -o-transform: translate(-50%,0); transform: translate(-50%,0); }
+.fmgo-banner-top .media-list .shape { position: absolute; width: 100%; height: 800px; overflow: hidden; }
+.fmgo-banner-top .media-list .shape-left { z-index: 1; -webkit-clip-path: polygon(0% 0%, 32.64% 0, 74.31% 100%, 0% 100%); clip-path: polygon(0% 0%, 32.64% 0, 74.31% 100%, 0% 100%); }
+.fmgo-banner-top .media-list .shape-right { z-index: 2; -webkit-clip-path: polygon(32.64% 0, 100% 0, 100% 100%, 74.31% 100%); clip-path: polygon(32.64% 0, 100% 0, 100% 100%, 74.31% 100%); }
+.fmgo-banner-top .media-list .shape-bottom { z-index: 3; -webkit-clip-path: polygon(50% 0, 0 100%, 100% 100%); clip-path: polygon(50% 0, 0 100%, 100% 100%);  width: 37.5%; height: 45% !important; bottom: 0; left: 38.91%; }
+.fmgo-banner-top .media-list .shape .image { height: 100%; background-size: cover; background-repeat: no-repeat; }
+.fmgo-banner-top .media-list .shape .image:hover { transform: scale(1.05); }
+.fmgo-banner-top .media-list .shape-left .image { background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/app-banner-top-01.jpg"); background-position: 0% 20%; background-size: auto 250%;  }
+.fmgo-banner-top .media-list .shape-right .image { background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/app-banner-top-03.jpg"); background-position: 160% 100%; background-size: auto 130%;  }
+.fmgo-banner-top .media-list .shape-bottom .image { background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/app-banner-top-02.jpg"); background-position: center;  }
+.fmgo-banner-top .text { text-shadow: 1px 1px 2px #333;margin: 0 0 30px;  }
+.fmgo-banner-top .logo { margin-top:140px; }
+.fmgo-banner-top .logo i{ height:160px; background-size: auto 100%; -webkit-filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, .5)); filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, .5)); }
+.fmgo-banner-top .phone { position: relative; margin-top: 40px; width: 548px; max-width: 100%; display: inline-block; }
+.fmgo-banner-top .phone-mockup { width: 548px; max-width: 100%; height: 0; padding-bottom: 48.54%; position: absolute; left: 0; right: 0; margin: 0 auto; background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/app-phone-mockup.png"); background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/app-phone-mockup.svg"), none; background-size: contain; -webkit-filter: drop-shadow(1px 27px 14px rgba(0, 0, 0, .2)); filter: drop-shadow(1px 27px 14px rgba(0, 0, 0, .2)); }
+.fmgo-banner-top .phone-screen { position: absolute; width: 80.66%; height: 0; padding-bottom: 44.71%; left: 8.47%; top: 10.7px;background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/app-phone-cover.jpg"); }
+.fmgo-banner-top .phone-screen i { font-size: 28px;}
+.fmgo-banner-top .desc { padding-top: 46px;}
+.logo.logo-store { width: 200px; height: 60px; border-radius: 6px; border: solid 1px #a9aaa9; display: inline-block; background-color: #000; background-position: 50% 80%; background-repeat: no-repeat; background-size: auto 50px; overflow: hidden; position: relative; margin: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, .5); -webkit-transition: all .2s ease; -moz-transition: all .2s ease; -o-transition: all .2s ease; transition: all .2s ease; }
+.logo.logo-store:before, .logo.logo-store:after { content: ""; position: absolute; top: 0; z-index: 1; opacity: .12; -webkit-transition: all .2s ease; -moz-transition: all .2s ease; -ms-transition: all .2s ease; -o-transition: all .2s ease; transition: all .2s ease; }
+.logo.logo-store:before { left: calc(50% - 35px); border-left: solid 70px transparent; border-bottom: solid 70px #fff; }
+.logo.logo-store:after { left: calc(50% + 35px); height: 100%; width: calc(50% - 35px); background-color: #fff; }
+.logo.logo-store:hover:after { left: calc(100% + 70px); }
+.logo.logo-store:hover:before { left: 100%; }
+.logo-app-store { background: url("https://filmora.wondershare.com/filmora-2016/style/logo/logo-app-store.png") center no-repeat; background-image: url("https://filmora.wondershare.com/filmora-2016/style/logo/logo-app-store.svg"), none; }
+.logo-google-play { background: url("https://filmora.wondershare.com/filmora-2016/style/logo/logo-google-play.png") center no-repeat; background-image: url("https://filmora.wondershare.com/filmora-2016/style/logo/logo-google-play.svg"), none; }
+@media (max-width:1015px){
+.fmgo-banner-top { height: 550px; height: 80vh;padding-top: 27vh; }
+.fmgo-banner-top > .back:before { height: 650px; height: calc(100vh - 45px); }
+.fmgo-banner-top > .front { display: block;width: 100%; }
+.fmgo-banner-top .media-list { position: absolute; width: 1300px; width: 200vh; height: 650px; height: calc(100vh - 45px); }
+.fmgo-banner-top .media-list .shape { height: 650px; height: calc(100vh - 45px); }
+.fmgo-banner-top .media-list .shape-left .image { background-position: 5      5% 0%; background-size: auto 200%; }
+.fmgo-banner-top .media-list .shape-right .image { background-position: 90% 120%; background-size: auto 120%; }
+.fmgo-banner-top .logo{margin:0;}
+.fmgo-banner-top .logo i {height: 18vh; }
+.fmgo-banner-top .text { margin: 20px 0; }
+.fmgo-banner-top h4 { display: none; }
+.fmgo-banner-top .action .logo-store { width: 100px; width: 40vw; height: 30px; height: 12vw; background-size: auto 80%; }
+.fmgo-banner-top .phone { margin-top: 40px; margin-top: 6vh; }
+.fmgo-banner-top .phone-screen { top: 1vh; }
+}
+@media (min-width:1016px){
+.banner-left { text-align: left; }
+}
+
+
+@media screen and (min-width:0\0) {	/** ie fix **/
+.banner-top-app .back .media-list .shape-bottom { z-index: 1; }
+.banner-top-app .back .media-list .shape .image { background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/app-banner-top-00.jpg"); background-position: center; background-size: cover; }
+}
+@-moz-document url-prefix(){		/** firefox fix **/
+.banner-top-app .back .media-list .shape-bottom { z-index: 1; }
+.banner-top-app .back .media-list .shape .image { background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/app-banner-top-00.jpg"); background-position: center; background-size: cover; }
+}
+@supports (-ms-ime-align:auto) {	/** edge fix **/
+  .banner-top-home .back .media-list .shape-bottom { z-index: 1; }
+  .banner-top-home .back .media-list .shape .image { background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/app-banner-top-00.jpg"); background-position: center; background-size: cover;}
+  .banner-top-app .back .media-list .shape-bottom { z-index: 1; }
+  .banner-top-app .back .media-list .shape .image { background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/app-banner-top-00.jpg"); background-position: center; background-size: cover; }
+  .banner-top-feat .back .media-list .shape-bottom { z-index: 1; }
+  .banner-top-feat .back .media-list .shape .image { background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/app-banner-top-00.jpg"); background-position: center; background-size: cover; }
+}
+
+.fmgo-feats-slides { padding: 134px 0 100px;text-align: center }
+.fmgo-feats-slides .swiper-slides{position: relative;}
+.fmgo-feats-slides .swiper-index { font-size: 18px; line-height: 20px; font-weight: bold;margin: 0;padding: 0 }
+.fmgo-feats-slides .swiper-index li { display: inline-block; margin: 0 35px; cursor: pointer; }
+.fmgo-feats-slides .swiper-index li:hover { color: #ea3b45; }
+.fmgo-feats-slides .swiper-control { position: absolute; left: 0; bottom: 0; width: 100%; line-height: 55px; height: 55px; }
+.fmgo-feats-slides .swiper-control i{position: absolute;outline: none;font-weight: bold}
+.fmgo-feats-slides .swiper-ctrl-prev { left: 5%;background: none }
+.fmgo-feats-slides .swiper-ctrl-next { right: 5%;background: none }
+.fmgo-feats-slides .swiper-container { width: 100%; padding: 80px 0;overflow: hidden; max-height: 535px;text-align: center;}
+.fmgo-feats-slides .swiper-slide {  position: relative; max-width: 667px;margin:0 auto}
+.fmgo-feats-slides .swiper-slide img { max-width: 100%; }
+.fmgo-feats-slides .swiper-slide .title { position: absolute;padding-top: 20px;margin: 0 auto; left: 0; right: 0; bottom: -80px; text-align: center; line-height: 55px; font-weight: bold; width: 220px; height: 55px; z-index: 3; opacity: 0; }
+.fmgo-feats-slides .swiper-slide.swiper-slide-active .title { opacity: 1; transition: opacity .5s ease; }
+@media (max-width:1015px){
+.fmgo-feats-slides { padding: 120px 0 50px; }
+.fmgo-feats-slides .swiper-index { text-align: center; }
+.fmgo-feats-slides .swiper-index li { margin: 5px 10px; }
+.fmgo-feats-slides .swiper-container { padding: 40px 0 80px; }
+}
+@media (min-width:1016px){
+.fmgo-feats-slides .swiper-slide .image:before { content: ""; position: absolute; width: 100%; height: 100%; z-index: 1; }
+.fmgo-feats-slides .swiper-slide-prev .image:before { background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 1)30%, rgba(255, 255, 255, 0)100%); background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 1)30%, rgba(255, 255, 255, 0)100%); background: -o-linear-gradient(90deg, rgba(255, 255, 255, 1)30%, rgba(255, 255, 255, 0)100%); background: linear-gradient(90deg, rgba(255, 255, 255, 1)30%, rgba(255, 255, 255, 0)100%); }
+.fmgo-feats-slides .swiper-slide-next .image:before { background: -webkit-linear-gradient(-90deg, rgba(255, 255, 255, 1)30%, rgba(255, 255, 255, 0)100%); background: -moz-linear-gradient(-90deg, rgba(255, 255, 255, 1)30%, rgba(255, 255, 255, 0)100%); background: -o-linear-gradient(-90deg, rgba(255, 255, 255, 1)30%, rgba(255, 255, 255, 0)100%); background: linear-gradient(-90deg, rgba(255, 255, 255, 1)30%, rgba(255, 255, 255, 0)100%); }
+}
+
+/** features slides **/
+.fmgo-feats  {padding: 80px 0 180px; text-align: center}
+.fmgo-feats .desc { margin: 10px 0 80px; }
+.fmgo-feats .swiper-slides{position: relative;}
+.fmgo-feats  .feats-control { position: relative; }
+.fmgo-feats  .feats-ctrl { position: absolute; left: 0; right: 0; margin: 0 auto; border-radius: 25px; width: 25px; height: 25px; font-size: 24px; line-height: 23px; opacity: .0; pointer-events: none; z-index: 3; }
+.fmgo-feats  .feats-ctrl.active { opacity: 1; cursor: pointer; pointer-events: initial; }
+.fmgo-feats  .feats-ctrl.prev { top: -35px; }
+.fmgo-feats  .feats-ctrl.next { bottom: -35px; }
+.fmgo-feats  .feats-box { height: 328px; overflow: hidden; padding-right: 40px; text-align: left; }
+.fmgo-feats  .feats-list ul{margin: 0;padding: 0}
+.fmgo-feats  .feats-list li { margin-bottom: 56px; opacity: .3; cursor: pointer;list-style-type: none }
+.fmgo-feats  .feats-list li.active, .fmgo-feats  .feats-list li:hover { opacity: 1; }
+.fmgo-feats  .feats-list li.active .feats-title { color: rgb(255,102,84); }
+.fmgo-feats  .feats-list li > div { display: inline-block; vertical-align: top; height: 72px; }
+.fmgo-feats  .feats-icon { width: 75px; padding: 3.5px 0; background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/feat-sprites-feats.png"); background-repeat: no-repeat; background-origin: content-box; }
+.fmgo-feats  .feats-icon-app { background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/app-sprites-tools.png"); }
+.fmgo-feats  .feats-text { width: 270px; width: calc(100% - 90px); padding-left: 15px; }
+.fmgo-feats  .feats-title { font-size: 18px; line-height: 25px; height: 25px; overflow: hidden; letter-spacing: 0.5px; font-weight: bold; }
+.fmgo-feats  .feats-desc { font-size: 14px; line-height: 20px; height: 40px; overflow: hidden; margin-top: 7px; }
+.fmgo-feats  .feats-video { width:100%;max-width: 584px;margin:0 auto;}
+.fmgo-feats  .feats-video i {}
+.fmgo-feats  .feats-icon-01 { background-position: -302px 0; }
+.fmgo-feats  .feats-icon-02 { background-position: -396px 0; }
+.fmgo-feats  .feats-icon-03 { background-position: 0 0; }
+.fmgo-feats  .feats-icon-04 { background-position: -203px 0; }
+.fmgo-feats  .feats-icon-05 { background-position: -104px 0; }
+.fmgo-feats  .feats-icon-app-01 { background-position: 7px -442px; }
+.fmgo-feats  .feats-icon-app-02 { background-position: 10px -339px; }
+.fmgo-feats  .feats-icon-app-03 { background-position: 9px -537px; }
+.fmgo-feats  .feats-icon-app-04 { background-position: 14px -863px; }
+.fmgo-feats  .feats-icon-app-05 { background-position: 12px -709px; }
+.fmgo-feats  .feats-icon-app-06 { background-position: 10px 8px; }
+.fmgo-feats  .feats-icon-app-07 { background-position: 10px -163px; }
+@media (max-width:1015px){
+.fmgo-feats  { height: auto; padding: 60px 0;}
+.fmgo-feats  .feats-list li { margin-bottom: 28px; }
+.fmgo-feats  .feats-ctrl { transform: rotate(-90deg); left: auto; right: auto; top: auto !important; bottom: 8.5px !important; opacity: .5; }
+.fmgo-feats  .feats-ctrl.prev { left: 5px; }
+.fmgo-feats  .feats-ctrl.next { right: 5px; }
+.fmgo-feats  .feats-video { margin-bottom: 25px; }
+.fmgo-feats  .feats-box { height: 72px; padding-right: 0; }
+.fmgo-feats  .feats-icon { display: none !important; }
+.fmgo-feats  .feats-text { width: 100%; padding-left: 40px; padding-right: 40px; text-align: center; }
+}
+
+
+/** banner app effects **/
+.fmgo-effects { padding: 100px 0 150px;text-align: center; }
+.fmgo-effects .text .desc { letter-spacing: 0.9px; margin: 40px 0 60px; }
+.fmgo-effects .effects-item { height: 250px; box-shadow: 1px 2px 4px rgba(0, 0, 0, .5); }
+.fmgo-effects .effects-item .image { position: relative; height: 100%; overflow: hidden; }
+.fmgo-effects .effects-item img { position: absolute; height: 100%; width: 100%; top: 0; left: 0; bottom: 0; border: 0; }
+.fmgo-effects .effects-item .title { position: absolute; left: 40px; bottom: 30px; width: 220px; font-size: 30px; line-height: 40px; font-weight: bold; letter-spacing: 0.9px; text-align: left; z-index: 2; text-shadow: 1px 1px 2px #666; }
+@media (max-width:1015px){
+.fmgo-effects { padding: 50px 0; }
+.fmgo-effects .effects-item { height: 150px; }
+}
+/** banner community **/
+.fmgo-community { padding: 150px 0; text-align: center; background-image: url("https://filmora.wondershare.com/filmora-2016/images/product/banner-filmora.io-bg.jpg"); }
+.fmgo-community .logo { height: 45px; -webkit-filter: drop-shadow(1px 1px 2px #666); filter: drop-shadow(1px 1px 2px #666); }
+.fmgo-community .desc { margin: 25px 0 15px; text-shadow: 1px 1px 2px #666; }
+@media (max-width:1015px){
+.fmgo-community { padding: 90px 0; }
+}
+
+
+/** banner downloads **/
+.fmgo-banner-downloads { padding: 60px 0; padding: 6vh 0; text-align: center; }
+.fmgo-banner-downloads .logo i { height: 100px; height: 10vh }
+.fmgo-banner-downloads .desc { margin: 30px 0 0; margin: 3vh 0 0; }
+.fmgo-banner-downloads .action { margin: 25px 0 0; margin: 2.5vh 0 0; }
